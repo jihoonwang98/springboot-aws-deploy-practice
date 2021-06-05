@@ -1,0 +1,38 @@
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "jihoon5",
+  "lastName": "wang5",
+  "email": "jihoonwang985@naver.com"
+}
+
+###
+GET http://localhost:8080/api/users
+
+
+###
+GET http://localhost:8080/api/users/1
+
+
+
+###
+GET http://localhost:8080/api/users/5
+
+
+###
+PUT http://localhost:8080/api/users/3
+Content-Type: application/json
+
+{
+  "firstName": "mod_firstName",
+  "lastName": "mod_lastName",
+  "email": "mod_Id@naver.com"
+}
+
+
+###
+DELETE http://localhost:8080/api/users/5
+
+
